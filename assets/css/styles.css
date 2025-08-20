@@ -1,0 +1,8 @@
+/* Custom CSS (Optional) */
+/* เพิ่มเอฟเฟกต์เมื่อ hover ที่ Project Card */
+.bg-white.rounded-lg.shadow-lg.overflow-hidden {
+  transition: transform 0.3s ease;
+}
+.bg-white.rounded-lg.shadow-lg.overflow-hidden:hover {
+  transform: translateY(-5px);
+}
